@@ -48,14 +48,23 @@ function DashboardPage({ role }) {
 
       <section className="hero-section">
         <div className="podium-section">
-          {topThree.map((item) => (
-            <div key={item.rank} className={`podium-card rank-${item.rank}`}>
-              <div className="avatar-placeholder">{item.rank}</div>
-              <h3>{item.team}</h3>
-              <div className="score-box">{item.score} pts</div>
-            </div>
-          ))}
+  {topThree.map((item) => (
+    <div
+      key={item.rank}
+      className={`podium-card rank-${item.rank} ${item.rank === 1 ? "winner-card" : ""}`}
+    >
+      <div className="rank-badge-wrapper">
+        {item.rank === 1 && <div className="crown">👑</div>}
+        <div className={`rank-circle rank-style-${item.rank}`}>
+          {item.rank}
         </div>
+      </div>
+
+      <h3>{item.team}</h3>
+      <div className="score-box">{item.score} pts</div>
+    </div>
+  ))}
+</div>
 
         <div className="side-panel">
           <div className="updates-card">
