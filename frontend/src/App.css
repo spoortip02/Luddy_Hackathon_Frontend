@@ -1,0 +1,420 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #222;
+}
+
+.app {
+  padding: 24px 40px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.logo-title h1 {
+  color: #9b111e;
+  margin: 0;
+}
+.logo-link {
+  text-decoration: none;
+}
+.top-stats {
+  display: flex;
+  gap: 24px;
+  font-size: 18px;
+  color: #444;
+}
+
+.hero-section {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.podium-section {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 24px;
+  min-height: 300px;
+}
+
+.podium-card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.rank-1 {
+  transform: scale(1.1);
+  border: 2px solid #c1121f;
+}
+
+.rank-2,
+.rank-3 {
+  margin-top: 60px;
+}
+
+.avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  background: #eee;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.score-box {
+  background: linear-gradient(to right, #c1121f, #9b111e);
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.side-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.updates-card,
+.stats-card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.updates-card h2 {
+  margin-top: 0;
+  color: #9b111e;
+}
+
+.updates-card p {
+  margin: 12px 0;
+  color: #444;
+}
+
+.stats-card {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.stats-card h3 {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.stats-card p {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #9b111e;
+}
+
+.leaderboard-section {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.leaderboard-section h2 {
+  margin-top: 0;
+  color: #9b111e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  color: #555;
+}
+
+tr:hover {
+  background: #fafafa;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #222;
+}
+
+.landing-page,
+.login-page,
+.score-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #f8f8f8, #f1f1f1);
+}
+
+.landing-card,
+.login-card,
+.score-card {
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 420px;
+}
+
+.landing-card h1,
+.login-card h2,
+.score-card h2 {
+  color: #9b111e;
+  margin-bottom: 12px;
+}
+
+.role-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.role-btn,
+.login-card button,
+.score-form button,
+.nav-btn {
+  background: #9b111e;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.viewer-btn {
+  background: #444;
+}
+
+.judge-btn {
+  background: #9b111e;
+}
+
+.login-card form,
+.score-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-card input,
+.score-form input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.app {
+  padding: 24px 40px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+  gap: 20px;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-title h1 {
+  margin: 0;
+  color: #9b111e;
+}
+
+.iu-badge {
+  width: 38px;
+  height: 38px;
+  background: #990000;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.hero-section {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.podium-section {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 24px;
+  min-height: 300px;
+}
+
+.podium-card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.rank-1 {
+  transform: scale(1.1);
+  border: 2px solid #c1121f;
+}
+
+.rank-2,
+.rank-3 {
+  margin-top: 60px;
+}
+
+.avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  background: #eee;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.score-box {
+  background: linear-gradient(to right, #c1121f, #9b111e);
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.side-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.updates-card,
+.stats-card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.updates-card h2 {
+  margin-top: 0;
+  color: #9b111e;
+}
+
+.updates-card p {
+  margin: 12px 0;
+  color: #444;
+}
+
+.stats-card {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.stats-card h3 {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.stats-card p {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #9b111e;
+}
+
+.leaderboard-section {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.leaderboard-section h2 {
+  margin-top: 0;
+  color: #9b111e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  color: #555;
+}
+
+tr:hover {
+  background: #fafafa;
+}
